@@ -3,6 +3,7 @@
 h3 {
     background-color: lightcoral;
 }
+/* 마우스 오버시 반응하는 속성 */
 h3:hover {
     background-color: blueviolet;
 }
