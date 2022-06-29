@@ -1,0 +1,44 @@
+    /* 공통폰트 (A, B=A가 안될 시 B*/
+        * {
+            font-family: 'Open Sans', sans-serif;
+        }
+        
+        html {
+            background-color: #00539F;
+        }
+
+        body {
+            background-color: #FF9500;
+            margin: 0px 30px 30px;
+            border: 5px black solid;
+            padding: 0px 20px 20px;
+        }
+
+        h1 {
+            font-size: 50px;
+            text-align: center; 
+            color: #00539F;
+            text-shadow: 3px 3px 1px black;
+        }
+
+        /* 성격바꾸기 display / bolck을 주고 margin으로 조절가능*/
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+        p, li {
+            line-height: 30px;
+        }
+
+        /* ul 하위 li 아이콘 없애기 */
+        .ul-none > * {
+            list-style-type: none;
+            color: blueviolet;
+            display: flex;
+            align-items: center;
+
+        /* 아이콘 */
+        }
+        .ul-none > li > .material-symbols-outlined {
+            color: red;
+        }

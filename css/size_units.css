@@ -1,0 +1,23 @@
+/* 절대값부여 디바이스의 화상도에 따라 크기가 달라짐(ex화상도가 높아지면 작아짐) */
+/* font 기본값 */
+* {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+.px-class {
+    font-size: 10px;
+}
+/* css에(상대적인경로) 설정한 기존값에 1배  */
+.rem-class {
+    font-size: 1rem;
+}
+
+.em-class {
+    font-size: 1em;
+}
+/* 브라우저가 설정한 절대값을 기본으로 % */
+.percent-class {
+    font-size: 100%;
+}
+
