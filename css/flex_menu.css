@@ -1,0 +1,43 @@
+* {
+    font-size: 12px;
+    margin: 2px;
+    padding: 0;
+    height: 100%;
+}
+
+.menu * {
+    /* border: 0.1rem solid gray; */
+}
+
+.menu {
+    margin: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: chocolate;
+}
+
+/* 가로를 %로 줘야 웹사이즈가 변경 됐을 때 사이즈가 가변됨 */
+.menu-right {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-right > li {
+    list-style-type: none;
+}
+
+.main {
+    background-color: aqua;
+}
+
+.footer {
+    background-color: yellowgreen;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 0.1rem solid gray;
+}

@@ -1,0 +1,25 @@
+.container > div {
+    width: 5rem;
+    height: 5rem;
+    border: 0.1rem solid goldenrod;
+}
+
+/* 임이의 사이즈 안에서 동작시키기 */
+/* 400사이즈 이하로 내려갔을 시 숨기기 */
+@media all and (max-width: 400px) {
+    .third {
+        visibility: hidden;
+    }
+}
+
+/* 가로 600 세로 500 숨기기 */
+@media all and (max-width: 600px) and (min-width: 500px) {
+    .second {
+        visibility: hidden;
+    }
+
+    .fourth {
+        visibility: hidden;
+    }
+        
+    }

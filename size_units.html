@@ -3,22 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 기기에 맞춰서 사이즈변환 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>size_units</title>
     <link rel="stylesheet" href="./css/size_units.css">
 </head>
 <body>
+    <div class="vw-class">viewport</div>
     <div class="px-class">px
-        <div>sub px</div>
+        <div class="px-class">sub px</div>
+        <div class="px-class">child px</div>
     </div><hr>
     <div class="rem-class">rem
-        <div>child rem</div>
+        <div class="rem-class">sub rem</div>
+        <div class="rem-class">child rem</div>
     </div><hr>
     <div class="em-class">em
-        <div>sub em</div>
+        <div class="em-class">subem</div>
+        <div class="em-class">child em</div>
     </div><hr>
     <div class="percent-class">percent
-        <div>sub percent</div>
+        <div class="percent-class">sub percent</div>
     </div>
 </body>
 </html>
